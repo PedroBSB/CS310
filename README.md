@@ -30,6 +30,7 @@ Every lecture is a self-contained Jupyter notebook. Click the badge to open it d
 | # | Lecture | Topics | Open in Colab |
 |:-:|:--------|:-------|:-------------:|
 | 1 | [Introduction](Lecture1.ipynb) | The 4th Industrial Revolution · Data Generating Process · Supervised Learning · Loss Functions & ERM · Strong Law of Large Numbers · Uniform Convergence · VC Dimension & PAC Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/CS310/blob/main/Lecture1.ipynb) |
+| 2 | [Complexity Control, Validation, and Cross-Validation](Lecture2.ipynb) | Why Control Complexity · Structural Risk Minimization · Nested Polynomial Models · Bias–Variance Decomposition · Train/Test Splits · Implicit vs. Explicit SRM · Ridge, Lasso, AIC/BIC · K-Fold & Nested Cross-Validation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/CS310/blob/main/Lecture2.ipynb) |
 
 Each notebook includes worked **examples** with runnable code and a set of **exercises**, each accompanied by a **Suggested Gemini Prompt** you can paste into Colab's built-in Gemini assistant.
 
@@ -79,6 +80,7 @@ The [`Data/`](Data) folder contains all datasets used in lectures, exercises, an
 | `Income1.csv` / `Income2.csv` | Simulated income vs. education (and seniority) |
 | `OJ.csv` | Orange juice purchase choices (Citrus Hill vs. Minute Maid) |
 | `Portfolio.csv` | Simulated asset returns for portfolio risk estimation |
+| `quadratic_model.csv` | Simulated quadratic DGP for model selection (SRM, AIC/BIC, CV) |
 | `Publication.csv` | Time to publication of clinical trial results |
 | `Smarket.csv` | Daily S&P 500 returns, 2001–2005 |
 | `Wage.csv` | Wages and demographics for male workers in the Mid-Atlantic |
