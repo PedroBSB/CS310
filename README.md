@@ -31,6 +31,7 @@ Every lecture is a self-contained Jupyter notebook. Click the badge to open it d
 |:-:|:--------|:-------|:-------------:|
 | 1 | [Introduction](Lecture1.ipynb) | The 4th Industrial Revolution · Data Generating Process · Supervised Learning · Loss Functions & ERM · Strong Law of Large Numbers · Uniform Convergence · VC Dimension & PAC Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/CS310/blob/main/Lecture1.ipynb) |
 | 2 | [Complexity Control, Validation, and Cross-Validation](Lecture2.ipynb) | Why Control Complexity · Structural Risk Minimization · Nested Polynomial Models · Bias–Variance Decomposition · Train/Test Splits · Implicit vs. Explicit SRM · Ridge, Lasso, AIC/BIC · K-Fold & Nested Cross-Validation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/CS310/blob/main/Lecture2.ipynb) |
+| 3 | [Inferential Models: Cobb–Douglas & Differential Equations](Lecture3.ipynb) | Two Paradigms (Model First vs. Data First) · The Cobb–Douglas Production Function · Solving PDEs by Separation of Variables · Estimation & Hypothesis Testing on the 1899–1922 Data · Jensen's Inequality · A Modeling Recipe with Differential Equations · Elasticities · Reading a Regression Table | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/CS310/blob/main/Lecture3.ipynb) |
 
 Each notebook includes worked **examples** with runnable code and a set of **exercises**, each accompanied by a **Suggested Gemini Prompt** you can paste into Colab's built-in Gemini assistant.
 
@@ -70,6 +71,7 @@ The [`Data/`](Data) folder contains all datasets used in lectures, exercises, an
 | `Caravan.csv` | Caravan insurance purchases with 85 customer attributes |
 | `Carseats.csv` | Simulated child car seat sales at 400 stores |
 | `Ch12Ex13.csv` | Gene expression data for unsupervised learning exercises |
+| `cobb_douglas_1928.csv` | The original Cobb & Douglas (1928) data: US manufacturing output, capital, and labor indexes, 1899–1922 |
 | `College.csv` | Statistics for 777 US colleges (applications, tuition, graduation rate) |
 | `Credit.csv` | Credit card balance and customer demographics |
 | `CreditCard.csv` | Credit card applications and spending behavior |
