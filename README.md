@@ -32,6 +32,7 @@ Every lecture is a self-contained Jupyter notebook. Click the badge to open it d
 | 1 | [Introduction](Lecture1.ipynb) | The 4th Industrial Revolution · Data Generating Process · Supervised Learning · Loss Functions & ERM · Strong Law of Large Numbers · Uniform Convergence · VC Dimension & PAC Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/CS310/blob/main/Lecture1.ipynb) |
 | 2 | [Complexity Control, Validation, and Cross-Validation](Lecture2.ipynb) | Why Control Complexity · Structural Risk Minimization · Nested Polynomial Models · Bias–Variance Decomposition · Train/Test Splits · Implicit vs. Explicit SRM · Ridge, Lasso, AIC/BIC · K-Fold & Nested Cross-Validation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/CS310/blob/main/Lecture2.ipynb) |
 | 3 | [Inferential Models: Cobb–Douglas & Differential Equations](Lecture3.ipynb) | Two Paradigms (Model First vs. Data First) · The Cobb–Douglas Production Function · Solving PDEs by Separation of Variables · Estimation & Hypothesis Testing on the 1899–1922 Data · Jensen's Inequality · A Modeling Recipe with Differential Equations · Elasticities · Reading a Regression Table | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/CS310/blob/main/Lecture3.ipynb) |
+| 4 | [Structural Equation Modeling](Lecture4.ipynb) | One Covariance-Structure Framework (`semopy`) · Correlation, Regression, Path Analysis & Mediation, Confirmatory Factor Analysis, and Simultaneous Equations as Special Cases · The Full ACSI Model · Why a Fixed Model Needs No Train/Validation Split · Hyperparameters in Disguise (Features, Polynomial Degree, Transformations, Modification Indices) · The Three-Way Split & K-Fold Cross-Validation · Post-Selection Inference & the Garden of Forking Paths | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/CS310/blob/main/Lecture4.ipynb) |
 
 Each notebook includes worked **examples** with runnable code and a set of **exercises**, each accompanied by a **Suggested Gemini Prompt** you can paste into Colab's built-in Gemini assistant.
 
@@ -44,7 +45,7 @@ Each notebook includes worked **examples** with runnable code and a set of **exe
 ```bash
 git clone https://github.com/PedroBSB/CS310.git
 cd CS310
-pip install numpy pandas matplotlib scipy jupyter
+pip install numpy pandas matplotlib scipy statsmodels scikit-learn semopy jupyter
 jupyter notebook
 ```
 
